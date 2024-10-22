@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://example.com/images/grilled_chicken.jpg",
+      "recipe_image": "https://i.postimg.cc/5ydYkwwN/mark-deyoung-mjc-J0-FFgd-WI-unsplash.jpg",
       "recipe_id": "R001",
       "recipe_name": "Grilled Chicken",
       "short_description": "Juicy grilled chicken with a blend of spices.",
@@ -15,7 +15,7 @@
       "calories": "320 calories"
     },
     {
-      "recipe_image": "https://example.com/images/vegan_salad.jpg",
+      "recipe_image": "https://i.postimg.cc/pLG9tNDS/polina-vegan4k-Eb-D8-Dumsml-Y-unsplash.jpg",
       "recipe_id": "R002",
       "recipe_name": "Vegan Salad",
       "short_description": "A refreshing mix of fresh vegetables and a light vinaigrette.",
@@ -30,7 +30,7 @@
       "calories": "150 calories"
     },
     {
-      "recipe_image": "https://example.com/images/spaghetti_carbonara.jpg",
+      "recipe_image": "https://i.postimg.cc/3J3W4r16/faez-daniel-1a-Xm7g-ETd-LE-unsplash.jpg",
       "recipe_id": "R003",
       "recipe_name": "Spaghetti Carbonara",
       "short_description": "Classic Italian pasta dish with a creamy sauce.",
@@ -45,7 +45,7 @@
       "calories": "600 calories"
     },
     {
-      "recipe_image": "https://example.com/images/beef_stir_fry.jpg",
+      "recipe_image": "https://i.postimg.cc/3xVKB3j3/sergey-kotenev-j-17-JLHMIpk-unsplash.jpg",
       "recipe_id": "R004",
       "recipe_name": "Beef Stir-Fry",
       "short_description": "Tender beef strips stir-fried with vegetables and soy sauce.",
@@ -60,7 +60,7 @@
       "calories": "400 calories"
     },
     {
-      "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+      "recipe_image": "https://i.postimg.cc/y85ZTybV/american-heritage-chocolate-3-Qrn-Nl-FN7-L4-unsplash.jpg",
       "recipe_id": "R005",
       "recipe_name": "Chocolate Cake",
       "short_description": "Rich and moist chocolate cake with a creamy frosting.",
@@ -70,12 +70,13 @@
         "100 g cocoa powder",
         "3 eggs",
         "100 g butter"
+        
       ],
       "preparing_time": "45 min",
       "calories": "450 calories"
     },
     {
-      "recipe_image": "https://example.com/images/pancakes.jpg",
+      "recipe_image": "https://i.postimg.cc/66YT0h8D/none-other-1a-V-db-XWoi-M-unsplash.jpg",
       "recipe_id": "R006",
       "recipe_name": "Fluffy Pancakes",
       "short_description": "Soft and fluffy pancakes topped with maple syrup.",
