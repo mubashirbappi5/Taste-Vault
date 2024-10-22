@@ -1,0 +1,93 @@
+[
+    {
+      "recipe_image": "https://example.com/images/grilled_chicken.jpg",
+      "recipe_id": "R001",
+      "recipe_name": "Grilled Chicken",
+      "short_description": "Juicy grilled chicken with a blend of spices.",
+      "ingredients": [
+        "500 g chicken breast",
+        "2 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/vegan_salad.jpg",
+      "recipe_id": "R002",
+      "recipe_name": "Vegan Salad",
+      "short_description": "A refreshing mix of fresh vegetables and a light vinaigrette.",
+      "ingredients": [
+        "200 g lettuce",
+        "100 g cherry tomatoes",
+        "50 g cucumber",
+        "30 g olives",
+        "50 ml balsamic vinaigrette"
+      ],
+      "preparing_time": "15 min",
+      "calories": "150 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/spaghetti_carbonara.jpg",
+      "recipe_id": "R003",
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish with a creamy sauce.",
+      "ingredients": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 eggs",
+        "50 g Parmesan cheese",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "25 min",
+      "calories": "600 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/beef_stir_fry.jpg",
+      "recipe_id": "R004",
+      "recipe_name": "Beef Stir-Fry",
+      "short_description": "Tender beef strips stir-fried with vegetables and soy sauce.",
+      "ingredients": [
+        "300 g beef strips",
+        "1 bell pepper",
+        "100 g broccoli",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil"
+      ],
+      "preparing_time": "20 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+      "recipe_id": "R005",
+      "recipe_name": "Chocolate Cake",
+      "short_description": "Rich and moist chocolate cake with a creamy frosting.",
+      "ingredients": [
+        "200 g flour",
+        "150 g sugar",
+        "100 g cocoa powder",
+        "3 eggs",
+        "100 g butter"
+      ],
+      "preparing_time": "45 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/pancakes.jpg",
+      "recipe_id": "R006",
+      "recipe_name": "Fluffy Pancakes",
+      "short_description": "Soft and fluffy pancakes topped with maple syrup.",
+      "ingredients": [
+        "200 g flour",
+        "300 ml milk",
+        "2 eggs",
+        "1 tbsp sugar",
+        "1 tsp baking powder"
+      ],
+      "preparing_time": "20 min",
+      "calories": "250 calories"
+    }
+  ]
+  

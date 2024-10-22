@@ -1,7 +1,7 @@
 import { FaRegUserCircle } from "react-icons/fa";
 const Header = () => {
     return (
-        <div className="w-11/12 mx-auto">
+        <div className="">
            <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -28,7 +28,7 @@ const Header = () => {
       <li><a>Search</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl">TastyTrove</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
