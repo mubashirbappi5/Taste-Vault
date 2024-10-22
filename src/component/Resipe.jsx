@@ -4,7 +4,7 @@ import { FaHotjar } from "react-icons/fa";
 
 
 
-const Resipe = ({resipe}) => {
+const Resipe = ({resipe,handlewentcook}) => {
    
     const {recipe_name,recipe_image,short_description,preparing_time,calories,ingredients} =resipe
     return (
@@ -27,11 +27,11 @@ const Resipe = ({resipe}) => {
     }
     <div className="divider"></div>
     <div className='flex justify-items-start gap-10'>
-    <p className='text-dark2 flex items-center gap-2'><MdOutlineAccessTime />{preparing_time}</p>
-    <p className='text-dark2 flex items-center gap-2'><FaHotjar />{calories}</p>
+    <p className='text-dark2 flex items-center gap-2'><MdOutlineAccessTime />{preparing_time}min</p>
+    <p className='text-dark2 flex items-center gap-2'><FaHotjar />{calories}calories</p>
     </div>
     <div className="card-actions mt-4">
-    <button className=" px-5 py-2 rounded-full bg-primari text-black font-bold hover:bg-black hover:text-white hover:border">Want to Cook</button>
+    <button onClick={()=>handlewentcook(resipe)} className=" px-5 py-2 rounded-full bg-primari text-black font-bold hover:bg-black hover:text-white hover:border">Want to Cook</button>
     </div>
   </div>
 </div>
@@ -40,7 +40,8 @@ const Resipe = ({resipe}) => {
     );
 };
 Resipe.propTypes = {
-    resipe:PropTypes.object
+    resipe:PropTypes.object,
+    handlewentcook:PropTypes.func.isRequired
 }
 
 export default Resipe;
