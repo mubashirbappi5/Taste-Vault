@@ -17,7 +17,7 @@ const Banner = () => {
       
       </p>
       <div className="flex gap-5 justify-center">
-      <button className=" px-5 py-2 rounded-full bg-primari text-black font-bold hover:bg-transparent hover:text-white hover:border">Explore Now</button>
+      <button  className=" px-5 py-2 rounded-full bg-primari text-black font-bold hover:bg-transparent hover:text-white hover:border"><a href="#our">Explore Now</a></button>
       <button className="px-5 rounded-full text-white bg-transparent border  font-bold  hover:bg-black hover:border-none">Get Started</button>
       </div>
     </div>
