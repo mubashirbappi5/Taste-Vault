@@ -6,6 +6,7 @@ import Header from './component/Header'
 import OurRecipe from './component/OurRecipe'
 import RecipeCard from './component/RecipeCard'
 import SideBar from './component/SideBar'
+import Footer from './component/Footer'
 
 function App() {
   const [sidebar,setsidebar] = useState([])
@@ -42,7 +43,7 @@ function App() {
    <Header/>
    <Banner/>
    <OurRecipe/>
-   <section className=' md:grid grid-cols-5 gap-6'>
+   <section className=' grid grid-cols-1 md:grid-cols-5 gap-6'>
     <RecipeCard  handlewentcook={ handlewentcook}/>
     <SideBar sidebar={sidebar}
                handlepreparing={handlepreparing}
@@ -54,7 +55,9 @@ function App() {
     />
 
    </section>
+   
    </div>
+   <Footer/>
     
     
       

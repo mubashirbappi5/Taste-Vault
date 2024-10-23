@@ -12,7 +12,7 @@ const RecipeCard = ({ handlewentcook}) => {
         .then(data => setrecipes(data))
     },[])
     return (
-        <div className="col-span-3  md:grid grid-cols-2 gap-4">
+        <div className="col-span-3  grid grid-cols-1 md:grid-cols-2 gap-4">
             
             {
                 recipes.map((resipe,idx)=><Resipe
